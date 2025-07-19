@@ -71,8 +71,8 @@ See [screenshots](docs/assets/)
 
 ## Explore More in docs/
 
-[hpamd](docs/hpa.md) – Explains HPA setup and test process.
+[hpa.md](docs/hpa.md) – Explains HPA setup and test process.
 
-[rolloutmd](docs/rollout.md) – Walkthrough of rollout strategy and CLI usage.
+[rollout.md](docs/rollout.md) – Walkthrough of rollout strategy and CLI usage.
 
-[monitoringmd](docs/monitoring.md) – Details Grafana dashboard setup and queries.
+[monitoring.md](docs/monitoring.md) – Details Grafana dashboard setup and queries.
