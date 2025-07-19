@@ -4,9 +4,9 @@
 
 Modern cloud-native applications must scale efficiently and deploy safely. In production, it's not enough to simply handle traffic bursts — we also need to roll out new versions with confidence, minimizing risk.
 
-Problem 1: How do we scale application pods automatically based on CPU load?
+**Problem 1: How do we scale application pods automatically based on CPU load?**
 
-Problem 2: How do we deploy a new version safely with observability into the progress and ability to pause or rollback?
+**Problem 2: How do we deploy a new version safely with observability into the progress and ability to pause or rollback?**
 
 ## The solution
 
