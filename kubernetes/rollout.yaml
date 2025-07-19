@@ -9,6 +9,12 @@ spec:
       steps:
         - setWeight: 50
         - pause: { duration: 20 }
+        - analysis:
+            templates:
+              - templateName: error-rate-check
+            args:
+              - name: service-name
+                value: cpu-app
   selector:
     matchLabels:
       app: cpu-app

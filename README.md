@@ -30,6 +30,7 @@ This project simulates real-world production behavior by generating artificial l
 
 - Automatically scaled app pods from 1 to 5 replicas under CPU stress.
 - Canary deployment performed with Argo Rollouts (50/50 weight + pause, then proceed).
+- AnalysisTemplate resource to decide if Argo Rollout deployment should be promoted or aborted automatically based on Prometheus metrics
 - Rollback deployment initiated from Argo Rollouts to deploy earlier version.
 - Monitoring visualized using custom Grafana dashboards:
   - CPU usage per replica
@@ -41,7 +42,7 @@ This project simulates real-world production behavior by generating artificial l
 
 ![architecture](docs/assets/architecture-overview.png)
 
-## Demo Evidence
+## Demo
 
 See [screenshots](docs/assets/)
 
@@ -76,3 +77,5 @@ See [screenshots](docs/assets/)
 [rollout.md](docs/rollout.md) – Walkthrough of rollout strategy and CLI usage.
 
 [monitoring.md](docs/monitoring.md) – Details Grafana dashboard setup and queries.
+
+[analysis-template.md](docs/analysis-template.md) - Analysis Template feature to automatically rollback based on Prometheus metrics
