@@ -60,9 +60,9 @@ See [screenshots](docs/assets/)
 
 ### Monitoring with Grafana and Prometheus:
 
-- Before load (screenshot: grafana-before-load.png)
+- Before load
   ![before-load](docs/assets/dashboard-before.png)
-- After load spike (screenshot: grafana-after-load.png)
+- After load spike
   ![after-load](docs/assets/dashboard-after.png)
 
 ### Argo Rollout Canary Deployment:
