@@ -32,10 +32,10 @@ This project simulates real-world production behavior by generating artificial l
 - Canary deployment performed with Argo Rollouts (50/50 weight + pause, then proceed).
 - Rollback deployment initiated from Argo Rollouts to deploy earlier version.
 - Monitoring visualized using custom Grafana dashboards:
-  -- CPU usage per replica
-  -- Replica history
-  -- Total CPU usage
-  -- Total memory usage
+  - CPU usage per replica
+  - Replica history
+  - Total CPU usage
+  - Total memory usage
 
 ## Architecture Overview
 
@@ -66,8 +66,8 @@ See [screenshots](docs/assets/)
 
 ### Argo Rollout Canary Deployment:
 
-- Rollout in progress via UI
-  ![argo-rollout](docs/assets/argo-rollouts%20ui.png)
+- Rollout in progress via UI using rollback featrure
+  ![argo-rollout](docs/assets/argo-rollouts-ui.png)
 
 ## Explore More in docs/
 
