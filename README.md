@@ -12,7 +12,7 @@ Problem 2: How do we deploy a new version safely with observability into the pro
 
 Integrate Horizontal Pod Autoscaler (HPA) to scale the app based on CPU usage.
 
-Argo Rollouts to replace standard Deployments and provide canary-style deployment with pause/set-weight logic.
+Argo Rollouts to replace standard Deployments, provide canary-style deployment with pause/set-weight logic and enable automated rollback on failures.
 
 Prometheus + Grafana stack for real-time monitoring.
 
